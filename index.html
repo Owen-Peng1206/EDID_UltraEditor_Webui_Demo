@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- frame-ancestors/X-Frame-Options must also be set as real response headers at nginx (see SECURITY_NOTES.md) -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; font-src 'self' data:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'"
+    />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <title>EDID UltraEditor Web</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+    <meta name="description" content="Professional EDID editor — web interface for VESA E-EDID standard editing" />
+    <!-- Prevent FOUC on dark background -->
+    <style>html,body{background:#0D1117;color:#C9D1D9;}</style>
+    <script type="module" crossorigin src="./assets/index-nj4Izrpb.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-Cmi4A8t0.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
